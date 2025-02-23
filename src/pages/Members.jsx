@@ -1,47 +1,46 @@
 import PageHeader from '../components/PageHeader'
-import placeholderImage from '../assets/placeholder.png'
 
 const boardMembers = [
   {
     name: "John Doe",
     title: "President",
     major: "Senior | Computer Science",
-    image: "src/assets/placeholder.png",
+    image: "/placeholder.png",
     linkedinUrl: "#"
   },
   {
     name: "Jane Smith",
     title: "Vice President",
     major: "Junior | Computer Science",
-    image: "src/assets/placeholder.png",
+    image: "/placeholder.png",
     linkedinUrl: "#"
   },
   {
     name: "Mike Johnson",
     title: "Treasurer",
     major: "Junior | Computer Science",
-    image: "src/assets/placeholder.png",
+    image: "/placeholder.png",
     linkedinUrl: "#"
   },
   {
     name: "Sarah Williams",
     title: "Secretary",
     major: "Junior | Computer Science",
-    image: "src/assets/placeholder.png",
+    image: "/placeholder.png",
     linkedinUrl: "#"
   },
   {
     name: "Alex Brown",
     title: "Event Coordinator",
     major: "Junior | Computer Science",
-    image: "src/assets/placeholder.png",
+    image: "/placeholder.png",
     linkedinUrl: "#"
   },
   {
     name: "Chris Davis",
     title: "STEM Chair",
     major: "Junior | Computer Science",
-    image: "src/assets/placeholder.png",
+    image: "/placeholder.png",
     linkedinUrl: "#"
   }
 ];
