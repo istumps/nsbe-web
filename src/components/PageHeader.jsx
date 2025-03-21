@@ -1,4 +1,4 @@
-function PageHeader({ title, subtitle }) {
+function PageHeader({ title, description }) {
   return (
     <div className="relative bg-[#D85A00]">
       <div className="absolute inset-0 bg-gradient-to-r from-[#D85A00] via-[#F47B20] to-[#D85A00]"></div>
@@ -13,9 +13,9 @@ function PageHeader({ title, subtitle }) {
           <h1 className="text-4xl font-bold mb-3 text-white">
             {title}
           </h1>
-          {subtitle && (
+          {description && (
             <p className="text-lg text-white font-medium max-w-2xl">
-              {subtitle}
+              {description}
             </p>
           )}
         </div>

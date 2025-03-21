@@ -5,6 +5,8 @@ import AboutUs from './pages/AboutUs'
 import Members from './pages/Members'
 import Sponsors from './pages/Sponsors'
 import Events from './pages/Events'
+import Contact from './pages/Contact'
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -18,8 +20,11 @@ function App() {
             <Route path="/members" element={<Members />} />
             <Route path="/sponsors" element={<Sponsors />} />
             <Route path="/events" element={<Events />} />
+            <Route path="/contact" element={<Contact />} />
+
           </Routes>
         </main>
+        <Footer/>
       </div>
     </Router>
   )

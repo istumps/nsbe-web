@@ -9,6 +9,7 @@ function Navbar() {
     { path: '/members', label: 'Members' },
     { path: '/sponsors', label: 'Sponsors' },
     { path: '/events', label: 'Events' },
+    {path:'/contact', label: "Contact"}
   ]
 
   return (

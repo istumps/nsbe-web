@@ -6,7 +6,7 @@ function AboutUs() {
     <div>
       <PageHeader 
         title="About NSBE" 
-        subtitle="Learn about our rich history and the foundation of our organization"
+        description="Learn about our rich history and the foundation of our organization"
       />
       <div className="container mx-auto px-6 py-12">
         <div className="max-w-4xl mx-auto">
