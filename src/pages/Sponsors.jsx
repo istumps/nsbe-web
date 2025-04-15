@@ -28,8 +28,9 @@ const donors = [
   { name: 'Alex Johnson' },
   { name: 'Michael Brown' },
   { name: 'Sarah Wilson' },
-  { name: 'David Lee' },
+  {name: 'David Lee' }, 
   {name: 'Emily Davis'},  
+  {name: 'Chris Martin'},
 
 ];
 
