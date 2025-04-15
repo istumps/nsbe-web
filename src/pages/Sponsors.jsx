@@ -29,6 +29,8 @@ const donors = [
   { name: 'Michael Brown' },
   { name: 'Sarah Wilson' },
   { name: 'David Lee' },
+  {name: 'Emily Davis'},  
+
 ];
 
 function Sponsors() {
